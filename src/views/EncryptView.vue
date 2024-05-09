@@ -52,7 +52,7 @@ export default {
   methods: {
     async encrypt() {
       await axios
-        .post("https://stokis.vercel.app/api/en", {
+        .post("https://stockis.vercel.app/api/en", {
           str: this.inputPlainText,
           geser: this.inputGeser,
         })
